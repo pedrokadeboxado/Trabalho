@@ -1,12 +1,16 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import App from './App.jsx'
-import Teste from './Teste.jsx'
+
+
+
+import Cabecalio from "./componentes/cabecalio";
+import Tigre from './componentes/tigrinho';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-    <Teste />
+
+    <Cabecalio/>
+    <Tigre/>
   </StrictMode>,
 )
