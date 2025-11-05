@@ -5,12 +5,34 @@ import { createRoot } from 'react-dom/client'
 
 
 import Cabecalio from "./componentes/cabecalio";
-import Tigre from './componentes/tigrinho';
+import Sobre from './componentes/sobre';
+
+import ExemploEstado from './componentes/ExemploEstado';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
     <Cabecalio/>
-    <Tigre/>
-  </StrictMode>,
+    
+  <Sobre/> 
+  
+  
+<ExemploEstado/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </StrictMode>,
 )
